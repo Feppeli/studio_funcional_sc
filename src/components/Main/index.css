@@ -1,0 +1,76 @@
+main{
+    background-image: url(../imgs/background.png);
+
+    background-position: 48% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main img{
+    width: 200px;
+    margin-top: 25px;
+}
+main a{
+    margin-bottom: 75px;
+    font-weight: bold;
+}
+
+main h1, p, a{
+    color: #fff;
+
+}
+main h1{
+    color: #00d4bb;
+    line-height: 45px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px #000 ;
+}
+
+main p{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #000;
+}
+main a{
+    text-decoration: none;
+    color: #00d4bb;
+    padding: 20px 50px;
+    border: 3px solid #00d4bb;
+    position: relative;
+}
+main a::before,
+main a::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+main a::before{
+    top: -15px;
+    left: -15px;
+    border-width:  3px 0 0 3px ;
+}
+main a:after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+main a:hover::before,
+main a:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+main div{
+    text-align: center;
+    width: 300px;
+}
