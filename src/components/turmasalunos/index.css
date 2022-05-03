@@ -1,0 +1,39 @@
+#alunos{
+    height: 100vh;
+
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 200px;
+    height: 200px;
+    background: #7400B8 ;
+
+    border-radius: 100px;
+}
+
+.circulo h1{
+    color: #fff;
+    font-size: 80px;
+}
+.blocos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 50vh;
+}
+
+.blocos > h1{
+    font-size: 30px;
+    font-weight: 600;
+}
