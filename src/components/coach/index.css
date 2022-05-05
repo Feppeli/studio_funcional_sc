@@ -5,7 +5,7 @@
 
     align-items: center;
     text-align: center;
-    height: 100vh;
+
 }
 
 #coach img{
@@ -17,13 +17,18 @@
     margin:5vh;
     width: 80%;
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.18);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(20px);
--webkit-backdrop-filter: blur(20px);
-border: 1px solid rgba(255, 255, 255, 0.25);
-height: 90vh;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+
+
+}
+#coach > div {
+    padding: 10px;
 }
 
 #coach h1{
