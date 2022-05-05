@@ -1,0 +1,75 @@
+#contatos{
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#contatos h1{
+    margin: 10px;
+    font-size: 30px;
+}
+
+#contatos img{
+    width: 30px;
+    height: 30px;
+}
+
+#contatos p{
+    color: #000;
+    width: 200px;
+}
+#contatos a{
+    margin: 10px;
+    text-align: center;
+
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#contatos div{
+    width: 80%;
+
+}
+
+#contatos p{
+    text-align: left;
+}
+
+#contatos > a{
+    text-decoration: none;
+    color: #00d4bb;
+    padding: 20px 50px;
+    border: 3px solid #00d4bb;
+    position: relative;
+}
+#contatos > a::before,
+#contatos > a::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+#contatos > a::before{
+    top: -15px;
+    left: -15px;
+    border-width:  3px 0 0 3px ;
+}
+#contatos > a:after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+#contatos > a:hover::before,
+#contatos > a:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}

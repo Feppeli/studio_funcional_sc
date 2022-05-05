@@ -7,13 +7,13 @@ const TurmasAlunos = () => {
             <div className="blocos">
                 <h1>Turmas</h1>
                 <div className="circulo">
-                    <h1>12</h1>
+                    <h1>3</h1>
                 </div>
             </div>
             <div className="blocos">
                 <h1>Alunos</h1>
                 <div className="circulo">
-                    <h1>50</h1>
+                    <h1>42</h1>
                 </div>
             </div>
         </section>

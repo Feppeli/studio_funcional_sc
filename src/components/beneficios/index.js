@@ -10,22 +10,22 @@ const Beneficios = () => {
         <section id='beneficios'>
             <div>
                 <img className='beneImg' src={Beneficio1} alt='.'></img>
-                <h1 className='benefics'>Beneficio</h1>
+                <h1 className='benefics'>Força</h1>
                 <p className='beneP'>Treinos cadenciados com carga trará mais força para as tarefas cotidianas!</p>
             </div>
             <div>
                 <img className='beneImg' src={Beneficio2} alt='.'></img>
-                <h1 className='benefics'>Beneficio</h1>
+                <h1 className='benefics'>Qualidade</h1>
                 <p className='beneP'>Com alta queima calórica o treino funcional lhe proporcional um corpo mais saudável.</p>
             </div>
             <div>
                 <img className='beneImg' src={Beneficio3} alt='.'></img>
-                <h1 className='benefics'>Beneficio</h1>
+                <h1 className='benefics'>Saúde</h1>
                 <p className='beneP'>Diminui os riscos de doenças cardiovasculares, diabetes e aumenta o seu tempo de vida.</p>
             </div>
             <div>
                 <img className='beneImg' src={Beneficio4} alt='.'></img>
-                <h1 className='benefics'>Beneficio</h1>
+                <h1 className='benefics'>Autonomia</h1>
                 <p className='beneP'>Chega de pedir ajuda! Um corpo preparado te proporcionara mais autonomia no dia a dia.</p>
             </div>
         </section>

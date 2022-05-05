@@ -12,7 +12,7 @@ const Main = () => {
                 <p>Aprimore seus movimentos e tenha um corpo mais inteligente</p>
             </div>
 
-            <a href='.'>Comece já</a>
+            <a href="https://api.whatsapp.com/send?phone=5581999918795" target="_blank" className="contats" rel="noreferrer">Comece já</a>
         </main>
     )
 }
