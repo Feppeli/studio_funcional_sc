@@ -4,7 +4,7 @@ main{
     background-position: 48% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
 
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@ main{
 }
 main img{
     width: 200px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 main a{
     margin-bottom: 75px;
