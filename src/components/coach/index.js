@@ -1,5 +1,5 @@
 import React from 'react';
-import Perfil from '../imgs/Capturar.PNG'
+import Perfil from '../imgs/Capturar.jpeg'
 import '../coach/index.css'
 
 const Coach = () => {
