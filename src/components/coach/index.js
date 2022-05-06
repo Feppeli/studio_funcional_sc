@@ -9,7 +9,7 @@ const Coach = () => {
                 <h1>Coach</h1>
                 <img src={Perfil} alt=""></img>
 
-                <h2>Silvania Cardoso</h2>
+                <h2>Silvânia Cardoso</h2>
                 <p>Te ajudo a viver sua <br/>melhor versão.<br/>
                     Bacharel e licenciatura<br/>
                     Esp. Educação Física com ênfase no handebol<br/>

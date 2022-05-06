@@ -9,7 +9,7 @@ const Sobre = () => {
                 <img src={AboutImg} alt=''></img>
                 <p>Atendendo com excelência e confinabilidade,
                     criânças adultos e idosos, entregando
-                    bem estar, saúde, autonomia, conciência corporal
+                    bem-estar, saúde, autonomia, consciência corporal
                     e força. agregando mais tempo e qualidade de vida a você
 
                 </p>
