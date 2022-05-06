@@ -27,7 +27,7 @@
 
     margin-top:20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     font-weight: bold;
     font-size: 18px;
@@ -40,6 +40,7 @@
 
 #contatos p{
     text-align: left;
+    letter-spacing: 1px;
 }
 
 #contatos > a{

@@ -24,7 +24,7 @@ const Contatos = () => {
                 </a>
                 <a href=".">
                     <img src={Local} alt=""></img>
-                    <p>R, Lorem Ipsum,<br/> Tamandaré-PE n°x</p>
+                    <p>Lot. Rio Formoso 2<br/> Tamandaré-PE n°35</p>
                 </a>
             </div>
             <a href="https://api.whatsapp.com/send?phone=5581999918795" target="_blank" className="contats" rel="noreferrer">Comece já</a>
