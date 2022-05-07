@@ -11,7 +11,6 @@ const Sobre = () => {
                     criânças adultos e idosos, entregando
                     bem-estar, saúde, autonomia, consciência corporal
                     e força. agregando mais tempo e qualidade de vida a você
-
                 </p>
             </div>
         </section>

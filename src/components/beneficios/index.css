@@ -26,3 +26,21 @@
 .benefics{
     font-size: 35px;
 }
+@media(min-width:1000px){
+    #beneficios{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .beneImg{
+        width: 100px;
+    }
+    .benefics{
+        font-size: 30px;
+    }
+    .beneP{
+        display: none;
+    }
+    #beneficios div{
+        height: 250px;
+    }
+}

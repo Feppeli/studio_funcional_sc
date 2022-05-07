@@ -47,3 +47,13 @@
     font-size: 30px;
     font-weight: 600;
 }
+
+@media(min-width:1000px){
+    #alunos{
+        flex-direction: row;
+        height: 70vh;
+    }
+    .blocos{
+        justify-content: space-evenly;
+    }
+}
