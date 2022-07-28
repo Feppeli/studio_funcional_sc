@@ -1,4 +1,6 @@
 import './App.css';
+import Loja from './components/Loja/Loja';
+import Downloadsapp from './components/Downloadsapp/Downloadsapp';
 import Main from './components/Main';
 import Beneficios from './components/beneficios';
 import Coach from './components/coach';
@@ -11,13 +13,15 @@ import Footer from './components/footer';
 function App() {
   return (
     <>
-    <Main/>
-    <Beneficios/>
-    <Coach/>
-    <TurmasAlunos/>
-    <Sobre/>
-    <Contatos/>
-    <Footer/>
+      <Main />
+      <Loja />
+      <Beneficios />
+      <Downloadsapp />
+      <Coach />
+      <TurmasAlunos />
+      <Sobre />
+      <Contatos />
+      <Footer />
     </>
   );
 }
